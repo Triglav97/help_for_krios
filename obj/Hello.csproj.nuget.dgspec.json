@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\мага 2 сем\\Темка\\help_for_krios\\Hello.csproj": {}
+    "/home/krios/VSCode/CSLesons/Chapter01/Hello/Hello.csproj": {}
   },
   "projects": {
-    "C:\\мага 2 сем\\Темка\\help_for_krios\\Hello.csproj": {
+    "/home/krios/VSCode/CSLesons/Chapter01/Hello/Hello.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\мага 2 сем\\Темка\\help_for_krios\\Hello.csproj",
+        "projectUniqueName": "/home/krios/VSCode/CSLesons/Chapter01/Hello/Hello.csproj",
         "projectName": "Hello",
-        "projectPath": "C:\\мага 2 сем\\Темка\\help_for_krios\\Hello.csproj",
-        "packagesPath": "C:\\Users\\VOVAY\\.nuget\\packages\\",
-        "outputPath": "C:\\мага 2 сем\\Темка\\help_for_krios\\obj\\",
+        "projectPath": "/home/krios/VSCode/CSLesons/Chapter01/Hello/Hello.csproj",
+        "packagesPath": "/home/krios/.nuget/packages/",
+        "outputPath": "/home/krios/VSCode/CSLesons/Chapter01/Hello/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\VOVAY\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/krios/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -65,18 +65,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[5.0.3, 5.0.3]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-preview.2.21155.3\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.201/RuntimeIdentifierGraph.json"
         }
       }
     }
