@@ -1,3 +1,5 @@
+using System.Windows;
+
 using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Markup.Xaml;
@@ -5,15 +7,18 @@ using Avalonia.Interactivity;
 using MessageBox.Avalonia;
 
 namespace Hello {
-	public class MainWindow : Window {
+	
+	public partial class MainWindow : Window {
 		public MainWindow() {
-			InitializeComponent();
-#if DEBUG
-			this.AttachDevTools();
-#endif
+			this.InitializeComponent();
+			
+// #if DEBUG
+// 			this.AttachDevTools();
+// #endif
 		}
 
-		public void button_Click(object sender, RoutedEventArgs e) {
+		private void Button_Click(object sender, RoutedEventArgs e) {
+			var userName = this.FindControl<TextBox>("userName");
 			var msg = MessageBoxManager.GetMessageBoxStandardWindow("title", "Hello " + userName.Text);
 			msg.Show();
 		}
